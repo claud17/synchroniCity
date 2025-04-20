@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SynchroniCity</title>
+  <style>
+    :root {
+      --primary: #5910E5;
+      --accent: #C3FF83;
+      --bg: #000;
+      --text: #fff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .services, .contact-form {
+      margin-top: 2rem;
+    }
+
+    .service-link {
+      display: block;
+      margin: 0.5rem 0;
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    form {
+      background-color: #111;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: var(--accent);
+      color: #000;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SynchroniCity</h1>
+    <p>Connecting locals with every business in town</p>
+    <nav>
+      <a href="https://instagram.com/YOUR_HANDLE" target="_blank">Instagram</a>
+      <a href="https://facebook.com/YOUR_HANDLE" target="_blank">Facebook</a>
+      <a href="https://twitter.com/YOUR_HANDLE" target="_blank">Twitter</a>
+    </nav>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <p>Explore businesses around town and compare prices instantly:</p>
+    <a class="service-link" href="#">Salon Services - from $25</a>
+    <a class="service-link" href="#">Cafés and Bakeries - from $3</a>
+    <a class="service-link" href="#">Local Gyms - monthly plans from $40</a>
+    <!-- Add more services as needed -->
+  </section>
+
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+      <label>Your Name</label>
+      <input type="text" name="name" required>
+
+      <label>Your Email</label>
+      <input type="email" name="email" required>
+
+      <label>Message</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 SynchroniCity. All rights reserved.
+  </footer>
+
+</body>
+</html>
