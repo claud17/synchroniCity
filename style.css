@@ -113,3 +113,28 @@ footer {
   background-color: #eee;
   color: #555;
 }
+/* Fade-in animation for sections */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeInUp 1s ease-in-out both;
+}
+
+/* Button hover animation */
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #aaff5a;
+  transform: scale(1.05);
+}
