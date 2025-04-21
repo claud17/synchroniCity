@@ -28,14 +28,7 @@ header h1 {
 header p {
   margin-top: 0.5rem;
 }
-header h1 {
-  margin: 0;
-  font-size: 3.5rem; /* Bigger title */
-  font-family: 'Segoe UI', sans-serif; /* Change font here */
-  letter-spacing: 2px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
+
 
 nav a {
   margin: 0 10px;
