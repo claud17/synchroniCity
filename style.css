@@ -146,3 +146,17 @@ button:hover {
   background-color: #aaff5a;
   transform: scale(1.05);
 }
+.hero .tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #fff;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.hero .tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #fff;
+  margin-top: 1rem;
+  font-weight: 400;
+}
