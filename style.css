@@ -160,3 +160,18 @@ button:hover {
   margin-top: 1rem;
   font-weight: 400;
 }
+/* Make service cards clickable and pop on hover */
+.service-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
