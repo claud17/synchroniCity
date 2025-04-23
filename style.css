@@ -169,6 +169,32 @@ button:hover {
 .service-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.location-buttons {
+  margin-top: 1.5rem;
+}
+
+.location-btn {
+  background-color: #5910e5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.location-btn:hover {
+  background-color: #4a0bc4;
+}
 
 .service-card:hover {
   transform: scale(1.03);
